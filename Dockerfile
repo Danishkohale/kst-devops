@@ -1,4 +1,4 @@
 FROM httpd:alpine
 COPY index.html /usr/local/apache2/htdocs/
-EXPOSE 80
+EXPOSE 81
 CMD ["httpd-foreground"]
